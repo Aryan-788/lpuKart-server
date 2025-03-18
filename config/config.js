@@ -4,7 +4,7 @@ const dotenv = require("dotenv")
 
 const DEFAULT_WALLET_MONEY = 190000;
 const DEFAULT_ADDRESS = "ADDRESS_NOT_SET";
-const DEFAULT_PAYMENT_OPTION = "PAYMENT_OPTION_DEFAULT"
+const DEFAULT_PAYMENT_OPTION = "razorpay"
 
 dotenv.config({path : path.join(__dirname,"../.env")})
 

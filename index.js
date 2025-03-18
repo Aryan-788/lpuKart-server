@@ -30,4 +30,4 @@ app.get("/",(req,res)=>{
 })
 app.listen(config.port,()=>{
     console.log("listening to port 8082")
-})
+})   
