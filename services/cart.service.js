@@ -116,8 +116,9 @@ const checkout = async (user)=>{
     user.walletMoney -= total;
     await user.save();
 
-    cart.cartItems = []
+    cart.cartItems = [];
     await cart.save();
+    return { success: true, message: "Checkout successful" };
 
 }
 
