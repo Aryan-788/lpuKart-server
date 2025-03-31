@@ -11,7 +11,7 @@ mongoose.connect(config.mongoose.url).then(()=>{
     console.log("connect to mongodb")
 })
 
-
+ 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(passport.initialize())
