@@ -18,7 +18,7 @@ app.use(passport.initialize())
 passport.use("jwt",jwtStrategy)
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://lpukart.vercel.app', 'http://13.126.191.249:5173'],
+  origin: ['http://localhost:5173', 'https://lpukart.vercel.app', 'http://3.110.118.174:5173'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
